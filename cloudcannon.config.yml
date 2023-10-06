@@ -34,14 +34,49 @@ collections_config:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
-    schemas: {}
+    schemas:
+      Travel Blog:
+        reorder_inputs: true
+        hide_extra_inputs: false
+        remove_empty_inputs: false
+        remove_extra_inputs: true
+        icon: notes
+        _editables: {}
+        _inputs: {}
+        _select_data: {}
+        _structures: {}
+      Customer Case Study:
+        reorder_inputs: true
+        hide_extra_inputs: false
+        remove_empty_inputs: false
+        remove_extra_inputs: true
+        icon: notes
+        _editables: {}
+        _inputs: {}
+        _select_data: {}
+        _structures: {}
   blog:
     path: content/blog
     output: true
     icon: notes
+    _editables: {}
+    _inputs: {}
+    _select_data: {}
+    _structures: {}
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
+    schemas:
+      blog:
+        reorder_inputs: true
+        hide_extra_inputs: false
+        remove_empty_inputs: false
+        remove_extra_inputs: true
+        icon: notes
+        _editables: {}
+        _inputs: {}
+        _select_data: {}
+        _structures: {}
   data:
     path: data
     output: false
