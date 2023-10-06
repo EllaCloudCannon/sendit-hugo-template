@@ -22,6 +22,12 @@ collections_config:
       - name: Add Article
         editor: content
         schema: default
+      - name: Add Customer Story
+        editor: content
+        schema: default
+      - name: Add Travel Blog
+        editor: content
+        schema: default
     _enabled_editors:
       - content
       - visual
