@@ -11,4 +11,8 @@ _enabled_editors:
   - visual
   - content          
 
+
+_inputs:
+  example:
+    type: array
 ---
