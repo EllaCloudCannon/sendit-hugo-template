@@ -43,4 +43,4 @@ Choose a reliable ESP that allows you to track opens and clicks so you can figur
 
 ### Your best email
 
-So, remember to keep this in mind and to always know that if you are sending out emails related to your business, be sure to follow-up with customers or clients and make sure that they are getting their emails in a timely manner.h
+So, remember to keep this in mind and to always know that if you are sending out emails related to your business, be sure to follow-up with customers or clients and make sure that they are getting their emails in a timely manner.
