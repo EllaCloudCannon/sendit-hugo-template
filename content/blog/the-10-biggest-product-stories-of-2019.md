@@ -39,6 +39,8 @@ Use images sparingly (if at all). You might be tempted to include an image in ev
 
 ### Tracking
 
+![](/uploads/cloudcannon-changelog-mar2024-workflow-updates.png)
+
 Choose a reliable ESP that allows you to track opens and clicks so you can figure out which types of messages work best for your audience.
 
 ### Send your best email
