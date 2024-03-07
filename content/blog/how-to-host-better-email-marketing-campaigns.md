@@ -7,12 +7,12 @@ author: Arther Conal
 thumbImg:
   image_path: /images/blog/blog-thumb-2.jpg
 featuredImg:
-  image_path: /images/blog/featured-image-6.jpg
+  image_path:
 seo:
-  page_description: 
-  canonical_url: 
-  featured_image: 
-  author_twitter_handle: 
+  page_description:
+  canonical_url:
+  featured_image:
+  author_twitter_handle:
   open_graph_type:
   no_index: false
 draft: false
