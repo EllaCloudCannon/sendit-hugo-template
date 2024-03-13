@@ -41,6 +41,8 @@ Use images sparingly (if at all). You might be tempted to include an image in ev
 
 Choose a reliable ESP that allows you to track opens and clicks so you can figure out which types of messages work best for your audience.
 
+## Test
+
 ### Send your best email
 
 So, remember to keep this in mind and to always know that if you are sending out emails related to your business, be sure to follow-up with customers or clients and make sure that they are getting their emails in a timely manner.
