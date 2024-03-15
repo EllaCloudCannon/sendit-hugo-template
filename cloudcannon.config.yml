@@ -1,423 +1,197 @@
-paths:
-  data: data
-  collections: content
-  includes: layouts
-  layouts: layouts
-  static: static
-  uploads: static/uploads
-  source: ''
-  archetypes: archetypes
-  assets: assets
-  content: content
-  pages: content
-  publish: public
-  config: ''
-collections_config:
-  pages:
-    path: content
-    output: true
-    filter: strict
-    parse_branch_index: true
-    icon: notes
-    disable_add: false
-    disable_add_folder: false
-    disable_file_actions: false
-  blog:
-    path: content/blog
-    output: true
-    icon: notes
-    _editables: {}
-    _inputs:
-      background:
-        type: color
-        comment: Defines the background for the entire page
-      hero_content:
-        type: markdown
-        label: Hero text
-      sidebar:
-        type: checkbox
-        hidden: true
-    _select_data: {}
-    _structures: {}
-    disable_add: false
-    disable_add_folder: false
-    disable_file_actions: false
-    schemas: {}
-  data:
-    path: data
-    output: false
-    icon: notes
-    disable_add: false
-    disable_add_folder: false
-    disable_file_actions: false
-_inputs: {}
-_select_data: {}
-_structures:
-  content_blocks:
-    style: select
-    id_key: _bookshop_name
-    values:
-      - value:
-          _bookshop_name: about/hero
-          title: On a mission to change email marketing
-          description: >-
-            We’re here to breathe new air into email marketing and help grow
-            your business.
-          hero_images: []
-          link:
-            text: Try Free
-            url: /#
-        label: About Hero
-        description: About Hero section
-        icon: apps
-        tags:
-          - hero
-        _inputs:
-          placer:
-            type: select
-            options:
-              allow_empty: true
-              values:
-                - front_bottom
-                - back_top_right
-                - back_top_left
-            cascade: true
-          hero_images:
-            type: array
-            options:
-              structures:
-                style: select
-                values:
-                  - label: Hero Image
-                    icon: add_box
-                    value:
-                      image_path: /images/about/aboutfeature-three.jpg
-                      placer: front_bottom
-                    _inputs:
-                      placer:
-                        type: select
-                        options:
-                          allow_empty: true
-                          values:
-                            - front_bottom
-                            - back_top_right
-                            - back_top_left
-                        cascade: true
-            cascade: true
-      - value:
-          _bookshop_name: about/team
-          title: Our leadership
-          team_members: []
-        label: About Team
-        description: About Team section
-        icon: groups
-        tags: []
-        _inputs:
-          team_members:
-            type: array
-            options:
-              structures:
-                style: select
-                values:
-                  - label: Team Member
-                    icon: add_box
-                    value:
-                      name: Pete Fish
-                      designation: Co-Founder & CEO
-                      image_path: /images/team/1.jpg
-                    _inputs: {}
-            cascade: true
-      - value:
-          _bookshop_name: about/video
-          title: We love what we do
-          description: >-
-            Our team has decades of experience working with email marketing
-            campaigns and we’re passionate about helping you connect with your
-            customers.
-          btn:
-            link: https://www.instagram.com/example
-            text: Follow on Linkedin
-          video:
-            image_path: /images/works/banner.jpg
-            link: https://vimeo.com/45830194
-        label: About Video
-        description: About Video section
-        icon: play_circle
-        tags: []
-        _inputs: {}
-      - value:
-          _bookshop_name: contact/form
-          address:
-            heading: Office Address
-            address: 123 Franklin St, Los Angeles, CA 90015
-          phone:
-            heading: Phone
-            cell: (123) 345 - 1234
-          email:
-            heading: Email
-            email: hello@example.com
-          form:
-            heading: Say Hello
-            fullName:
-              heading: Full Name
-              placeHolder: Enter First Name
-            phoneNumber:
-              heading: Phone number
-              placeHolder: Enter Phone Number
-            email:
-              heading: Email Address
-              placeHolder: Enter Email Address
-            message:
-              heading: Your Messages
-              placeHolder: Any Message
-            submitBtn:
-              text: Send message
-        label: Form
-        description: Form section
-        icon: check_box
-        tags: []
-        _inputs: {}
-      - value:
-          _bookshop_name: contact/hero
-          title: Let's talk.
-          description: Have a question or suggestion? Feel free to drop us a message!
-        label: Contact Hero
-        description: Contact Hero section
-        icon: contact_support
-        tags:
-          - hero
-        _inputs: {}
-      - value:
-          _bookshop_name: feature/hero
-          title: Run the best campaigns
-          description: >-
-            Sendit will change the way you think about email and marketing
-            automation..
-          btn:
-            link: /#
-            text: Try This Free
-          image_path: /images/feature/feature-hero.png
-        label: Feature Hero
-        description: Feature Hero section
-        icon: contactless
-        tags:
-          - hero
-        _inputs: {}
-      - value:
-          _bookshop_name: global/counter
-          title: 'Scale your '
-          title_suffix: Business
-          description: >-
-            We have an extensive library of pre-written sales emails, proven
-            marketing templates, and more to get you started on your next
-            project.
-          alternateStyle: false
-          numbers: []
-        label: Counter
-        description: Counter section
-        icon: functions
-        tags: []
-        _inputs:
-          numbers:
-            type: array
-            options:
-              structures:
-                style: select
-                values:
-                  - label: Number
-                    icon: add_box
-                    value:
-                      number: 200
-                      suffix: m
-                      prefix: $
-                      text: Venture capital raised
-                    _inputs: {}
-            cascade: true
-      - value:
-          _bookshop_name: global/faq
-          title: Have
-          title_suffix: Questions?
-          description: >-
-            We’re always here to help. Here are the most frequently asked
-            questions.
-          faq: []
-        label: FAQ
-        description: FAQ section
-        icon: checklist
-        tags: []
-        _inputs:
-          description:
-            type: markdown
-            cascade: true
-          faq:
-            type: array
-            options:
-              structures:
-                style: select
-                values:
-                  - label: Faq
-                    icon: add_box
-                    value:
-                      title: >-
-                        Is there a maximum numbers of emails I can send each
-                        month?
-                      description: >-
-                        No, the prices include unlimited emails. Send to your
-                        heart’s content.
-                    _inputs:
-                      description:
-                        type: markdown
-                        cascade: true
-            cascade: true
-      - value:
-          _bookshop_name: global/feature
-          image_path: /images/feature/feature-card-one.png
-          title: Simply click and send
-          description: >-
-            Make your message stand out, thanks to the guided copywriting and
-            design features, triggering a positive response from your customers.
-          btn:
-            link: /#
-            text: Try Free
-          reversed: false
-        label: Feature
-        description: Feature section
-        icon: stars
-        tags: []
-        _inputs:
-          description:
-            type: markdown
-            cascade: true
-      - value:
-          _bookshop_name: global/header
-          title: Sendit
-          title_suffix: Features
-          description: >-
-            Sendit is the most complete solution to create beautiful email
-            designs, manage mails and send them out at the best price.
-          no_top_pad: false
-        label: Header
-        description: Header section
-        icon: task
-        tags: []
-        _inputs: {}
-      - value:
-          _bookshop_name: global/testimonial
-          title: Build relationships that
-          title_suffix: last
-          description: >-
-            Customers from around the world are building game changing email
-            marketing campaigns.
-          slider: []
-        label: Testimonial
-        description: Testimonial section
-        icon: 3p
-        tags: []
-        _inputs:
-          slider:
-            type: array
-            options:
-              structures:
-                style: select
-                values:
-                  - label: Slider
-                    icon: add_box
-                    value:
-                      image_path: /images/testimonial/logo-2.jpg
-                      author: Pete Fish
-                      designation: CMO at Clear Appeal
-                      message: >-
-                        Sendit has taken Clear Appeal to the next level with
-                        it's beautiful targetted email campaigns.
-                    _inputs: {}
-            cascade: true
-      - value:
-          _bookshop_name: home/hero
-          title: Beautiful email campaigns
-          description: >-
-            With Sendit, you can quickly create beautiful rich emails that
-            capture a reader’s attention, engage them, and convert them into
-            customers.
-          image_path: /images/hero/hero-image-2.png
-          link:
-            text: Try Free
-            url: /#
-        label: Home Hero
-        description: Home Hero section
-        icon: cottage
-        tags:
-          - hero
-        _inputs: {}
-      - value:
-          _bookshop_name: home/video
-          image_path: /images/video/video-thum.jpg
-          videoUrl: https://vimeo.com/45830194
-        label: Home Video
-        description: Home Video section
-        icon: videocam
-        tags: []
-        _inputs: {}
-      - value:
-          _bookshop_name: pricing/hero
-          title: A plan for everyone
-          description: >-
-            Sendit is easy to get started and we have a pricing plan for
-            businesses of all sizes.
-        label: Pricing Hero
-        description: Pricing Hero section
-        icon: credit_card
-        tags:
-          - hero
-        _inputs: {}
-      - value:
-          _bookshop_name: pricing/table
-          pricing_tier: []
-        label: Pricing Table
-        description: Pricing table section
-        icon: table_rows
-        tags: []
-        _inputs:
-          feature:
-            type: array
-            options:
-              structures: _structures.features
-            cascade: true
-          pricing_tier:
-            type: array
-            options:
-              structures:
-                style: select
-                values:
-                  - label: Pricing Tier
-                    icon: add_box
-                    value:
-                      tier: free
-                      description: Everything you need to get started.
-                      price: 0
-                      hasDiscount: false
-                      discountPrice: 0
-                      isActive: false
-                      feature:
-                      btn:
-                        link: /#
-                        text: Try This Free
-                    _inputs:
-                      feature:
-                        type: array
-                        options:
-                          structures: _structures.features
-                        cascade: true
-            cascade: true
-      - value:
-          _bookshop_name: privacy/hero
-          title: Terms & Condition
-        label: Hero
-        description: Hero section
-        icon: lock
-        tags:
-          - hero
-        _inputs: {}
-_editables: {}
 data_config:
   blog-tags: true
-timezone: Etc/UTC
+collections_config:
+  pages:
+    icon: feed
+    disable_add_folder: true
+    output: true 
+    path: content
+    schemas:
+      default: 
+        path: schemas/page.html
+    _enabled_editors:
+      - visual
+  articles:
+    icon: article 
+    path: content/blog
+    disable_add_folder: true
+    schemas:
+      default: 
+        path: schemas/post.md
+    add_options:
+      - name: Add Article
+        editor: content
+        schema: default
+    _enabled_editors:
+      - content
+      - visual
+  data:
+    output: true
+    path: data
+    icon: settings
+    disable_add: true 
+    disable_add_folder: true
+    _enabled_editors:
+      - data 
+    filter:
+      exclude:
+        - footer.yaml
+        - nav.yaml
+  site_navigation:
+    output: true
+    path: data 
+    icon: table_rows 
+    disable_add: true 
+    disable_add_folder: true
+    _enabled_editors:
+      - data 
+    filter: 
+      base: none 
+      include: 
+        - nav.yaml
+        - footer.yaml
+  
+collection_groups:
+  - heading: Pages 
+    collections:
+      - pages
+  - heading: Blogging 
+    collections:
+      - articles
+  - heading: Site Settings
+    collections:
+      - data
+      - site_navigation
+
+
+
+
+_inputs:
+  content:
+    type: markdown
+  icon:
+    type: select
+    options:
+      values:
+        - ph-user-square
+  description:
+    type: markdown
+    options:
+      bold: true
+      italic: true
+      link: true
+      removeformat: true
+  isActive:
+    type: switch
+  social[*].icon:
+    type: select
+    options:
+      values:
+        - ph-facebook-logo
+        - ph-instagram-logo
+        - ph-twitter-logo
+        - ph-github-logo
+        - ph-youtube-logo
+  page_description:
+    comment: If empty, defaults to the description set in the Site SEO data file 
+    type: text 
+  canonical_url:
+    comment: If empty, defaults to the URL of the page 
+    type: text
+  featured_image:
+    comment: If empty, defaults to the image set in the Site SEO data file
+    type: image
+  author_twitter_handle:
+    type: twitter
+    comment: Defaults to the twitter site value set in the Site SEO data file
+  no_index:
+    type: checkbox
+    comment: When selected this removes the page from your sitemap and adds the noindex robots meta tag
+  open_graph_type:
+    type: select
+    options:
+      values: 
+        - website
+        - article
+        - profile
+  favicon_icon:
+    type: image
+    comment: For the shortcut icon meta tag
+  favicon_image:
+    type: image
+    comment: For the icon meta tag
+  enable_dropdown:
+    type: switch
+  dropdown:
+    type: array
+    options: 
+      structures: _structures.dropdown
+    label: Dropdown Items
+    hidden: "!enable_dropdown"
+  dropdown_link:
+    type: url
+    label: Link
+  dropdown_text:
+    type: text
+    label: Name
+  items: 
+    type: array 
+    options: 
+      structures: _structures.items
+  logo:
+    type: image
+  categories:
+      type: multiselect
+      options: 
+        values: data.blog-tags
+  twitter_site:
+    type: twitter
+    label: Twitter Username
+  logo_url:
+      comment: Link for the logo in the top left of the footer
+  copyright:
+    comment: Automatically prefixed with the current year
+  enable_nav_btn:
+    type: switch
+  nav_btn:
+    hidden: "!enable_nav_btn"
+  
+
+_structures:
+  content_blocks:
+    style: modal
+  dropdown: 
+    values: 
+      value: 
+        dropdown_text:
+        dropdown_link: 
+  social: 
+    values: 
+      value: 
+        link:
+        icon:
+  sections: 
+    values:
+      value:  
+        title:
+        links:
+  links: 
+    values: 
+      value: 
+        link: 
+        text: 
+  features:
+    values:
+      - value: 
+          item: 
+          isActive:
+  items:
+    values:
+      value:
+        link: 
+        text:
+        enable_dropdown:
+        dropdown:
+
+paths:
+  uploads: static/images
