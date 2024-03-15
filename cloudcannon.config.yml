@@ -15,13 +15,6 @@ collections_config:
     icon: article 
     path: content/blog
     disable_add_folder: true
-    schemas:
-      default: 
-        path: schemas/post.md
-    add_options:
-      - name: Add Article
-        editor: content
-        schema: default
     _enabled_editors:
       - content
       - visual
