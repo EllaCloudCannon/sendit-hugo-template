@@ -1,6 +1,6 @@
 ---
 title:
 author:
-image: /images/header.png
+image: /images/feature/feature-hero-two.png
 ---
 Hi, everyone. Welcome back to my blog!
