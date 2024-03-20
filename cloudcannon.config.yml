@@ -15,7 +15,6 @@ collections_config:
   articles:
     icon: article 
     path: content/blog
-    disable_add_folder: true
     schemas:
       default: 
         path: schemas/page.html
