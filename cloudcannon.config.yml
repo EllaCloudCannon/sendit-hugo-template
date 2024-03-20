@@ -11,17 +11,19 @@ collections_config:
         path: schemas/page.html
     _enabled_editors:
       - visual
-  articles:
+    articles:
     icon: article 
     path: content/blog
-    disable_add_folder: true
     schemas:
       default: 
-        path: schemas/post.md
-    add_options:
-      - name: Add Article
-        editor: content
-        schema: default
+        path: schemas/page.html
+        name: Newsletter Entry
+      events: 
+        path: schemas/page.html
+        name: Upcoming Event
+      announcements: 
+        path: schemas/page.html
+        name: Important Announcement
     _enabled_editors:
       - content
       - visual
