@@ -11,7 +11,7 @@ collections_config:
         path: schemas/page.html
     _enabled_editors:
       - visual
-    articles:
+  articles:
     icon: article 
     path: content/blog
     schemas:
