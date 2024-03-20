@@ -16,14 +16,7 @@ collections_config:
     path: content/blog
     schemas:
       default: 
-        path: schemas/page.html
-        name: Newsletter Entry
-      events: 
-        path: schemas/page.html
-        name: Upcoming Event
-      announcements: 
-        path: schemas/page.html
-        name: Important Announcement
+        path: schemas/post.md
     _enabled_editors:
       - content
       - visual
