@@ -1,20 +1,19 @@
 ---
+_schema: default
 date: 2022-03-07T00:00:00Z
 title: What are the best email clients?
+seo:
+  page_description:
+  canonical_url:
+  featured_image:
+  author_twitter_handle:
+  open_graph_type:
+  no_index: false
 categories:
   - Marketing
 author: Wendy Parkes
-thumbImg:
-  image_path: /images/blog/blog-thumb-4.jpg
-featuredImg:
-  image_path: /images/blog/featured-image-4.jpg
-seo:
-  page_description: 
-  canonical_url: 
-  featured_image: 
-  author_twitter_handle: 
-  open_graph_type:
-  no_index: false
+thumbImg: {}
+featuredImg: {}
 draft: false
 ---
 When you send an email campaign, you expect it to reach your readers, right? But what if the emails go straight to your subscribers' spam folders instead of their inboxes? To make sure your emails reach their recipients successfully, follow these email delivery tips.
@@ -24,6 +23,8 @@ When you send an email campaign, you expect it to reach your readers, right? But
 Use an email service provider (ESP) that has been tested by third-party email certification services. This ensures that your emails will be accepted by the major ISPs. An ESP that offers multiple IP addresses, or one that allows you to use your own IP address if necessary. ISPs often block messages from unknown senders, so having your own IP address helps get around this issue.
 
 Be aware of what's normal for your target customers' inboxes. If you're sending out emails to people who are on Gmail and Yahoo accounts, then there's little chance they'll get blocked because their addresses haven't been flagged as spam yet. But if you're reaching out to people with Outlook or AOL addresses, there's a good chance your message will get flagged as junk mail and end up in their spam folder before they ever see it. Make sure you're testing different types of addresses before sending out any mass marketing campaigns.
+
+![](/images/cloudcannon-documentation-visual-editor-data-panel.png)
 
 ### Double opt-in
 
