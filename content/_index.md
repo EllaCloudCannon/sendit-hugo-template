@@ -1,5 +1,7 @@
 ---
 title: Home
+_enabled_editors:
+  - data
 seo:
   page_description: 
   canonical_url: 
