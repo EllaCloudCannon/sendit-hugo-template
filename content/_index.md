@@ -2,6 +2,7 @@
 title: Home
 _enabled_editors:
   - data
+  - visual
 seo:
   page_description: 
   canonical_url: 
