@@ -1,4 +1,5 @@
 ---
+_schema: default
 title: About
 seo:
   page_description:
@@ -26,7 +27,7 @@ content_blocks:
   - _bookshop_name: global/counter
     title: Built for your
     title_suffix: Business
-    description: We've built Sendit from the ground up the help grow your business faster.
+    description: We've built Sendit from the ground up the help grow your business faster..
     alternateStyle: true
     numbers:
       - number: 200
@@ -34,12 +35,16 @@ content_blocks:
         prefix: $
         text: Venture capital raised
       - number: 2016
+        suffix: m
+        prefix: $
         text: Established in
       - number: 40
         suffix: +
+        prefix: $
         text: Amazing team members
       - number: 44325
         suffix: +
+        prefix: $
         text: Active users and growing
   - _bookshop_name: about/video
     title: We love what we do
