@@ -200,12 +200,12 @@ commit_templates:
   - label: Structured message
     template_string: "{commit_type}: {message|trim}"
     _inputs:
-    commit_type:
-      type: select
-      options:
-        values:
-          - feature
-          - fix
-          - refactor
+      commit_type:
+        type: select
+        options:
+          values:
+            - feature
+            - fix
+            - refactor
   - label: Custom message
     template_string: "{message}"
