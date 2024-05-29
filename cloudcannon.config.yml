@@ -198,5 +198,8 @@ paths:
   
 commit_templates:
   - template_string: |
-     {type}: {subject}
+     {ticket_number}: {subject}
      Committed by [author] at [date]
+    _inputs:
+      ticket_number:
+        type: number
