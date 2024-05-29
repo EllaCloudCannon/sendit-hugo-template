@@ -1,20 +1,19 @@
 ---
+_schema: default
 date: 2022-03-07T00:00:00Z
 title: Best email sending services
+seo:
+  page_description:
+  canonical_url:
+  featured_image:
+  author_twitter_handle:
+  open_graph_type:
+  no_index: false
 categories:
   - Technology
 author: Wendy Parkes
-thumbImg:
-  image_path: /images/blog/blog-thumb-3.jpg
-featuredImg:
-  image_path: /images/blog/featured-image-5.jpg
-seo:
-  page_description: 
-  canonical_url: 
-  featured_image: 
-  author_twitter_handle: 
-  open_graph_type:
-  no_index: false
+thumbImg: {}
+featuredImg: {}
 draft: false
 ---
 When you send an email campaign, you expect it to reach your readers, right? But what if the emails go straight to your subscribers' spam folders instead of their inboxes? To make sure your emails reach their recipients successfully, follow these email delivery tips.
@@ -39,7 +38,7 @@ Use images sparingly (if at all). You might be tempted to include an image in ev
 
 ### Tracking
 
-Choose a reliable ESP that allows you to track opens and clicks so you can figure out which types of messages work best for your audience.
+Choose a reliable ESP that allows you to track opens and clicks so you can figure out which types of messages work best for your audience hjhjh.
 
 ### Send your best email
 
