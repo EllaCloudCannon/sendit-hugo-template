@@ -197,9 +197,11 @@ paths:
   uploads: static/images
   
 commit_templates:
-  - template_string: |
-     {ticket_number}: {subject}
-     Committed by [author] at [date]
+  - template_string: '{message}{breaking_change|if=breaking_change_message}'
     _inputs:
-      ticket_number:
-        type: number
+      breaking_change_message:
+        type: text
+    extra_data:
+      breaking_change: |-
+
+        ⚠️ {breaking_change_message}
