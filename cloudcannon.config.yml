@@ -78,7 +78,7 @@ _inputs:
     type: markdown
     options:
       allow_resize: false
-      initial_height: 1000px
+      initial_height: 1000
       bold: true
       italic: true
       link: true
