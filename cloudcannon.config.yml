@@ -78,7 +78,6 @@ _editables:
     indent: true
     numberedlist: true
     outdent: true
-    code: true
     embed: true
     horizontalrule: true
     image: true
