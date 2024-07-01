@@ -94,6 +94,8 @@ _editables:
     justify: align-justify
     image_size_attributes: true
     snippet: true
+    join_above: true
+    join_below: true
 
 
 _inputs:
