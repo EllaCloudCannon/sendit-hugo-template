@@ -7,47 +7,92 @@ collections_config:
     name: Pages
     icon: wysiwyg
     disable_url: false
+    description: ''
+    _editables:
+    _enabled_editors:
+    _inputs:
+    _select_data:
+    _structures:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
+    schemas:
   blog:
     path: content/blog
     glob:
       - '!_index.md'
     name: Blog
-    icon: event_available
+    icon: post_add
     disable_url: false
+    description: ''
+    _editables:
+    _enabled_editors:
+    _inputs:
+    _select_data:
+    _structures:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
+    schemas:
   products:
     path: content/products
     glob:
       - '!_index.md'
     name: Products
-    icon: groups
+    icon: inventory_2
     disable_url: false
+    description: ''
+    _editables:
+    _enabled_editors:
+    _inputs:
+    _select_data:
+    _structures:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
+    schemas:
   data:
     path: data
-    name: Data
-    icon: data_usage
+    name: Site Elements
+    icon: important_devices
     disable_url: true
+    description: ''
+    _editables:
+    _enabled_editors:
+    _inputs:
+    _select_data:
+    _structures:
     disable_add: true
     disable_add_folder: true
     disable_file_actions: true
+    schemas:
   staff_members:
     path: content/staff-members
     glob:
       - '!_index.md'
     name: Staff Members
-    icon: card_membership
+    icon: groups
     disable_url: false
+    description: ''
+    _editables:
+    _enabled_editors:
+    _inputs:
+    _select_data:
+    _structures:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
+    schemas:
+collection_groups:
+  - heading: Content
+    collections:
+      - pages
+      - blog
+      - products
+  - heading: Data Files
+    collections:
+      - staff_members
+      - data
 timezone: Pacific/Auckland
 markdown:
   engine: commonmark
