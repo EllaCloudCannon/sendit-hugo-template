@@ -34,6 +34,13 @@ collections_config:
     disable_add_folder: false
     disable_file_actions: false
     schemas:
+      post:
+        path: schemas/post.md
+        name: Blog Post
+        icon: post_add
+      customer_story:
+        path: schemas/customer-story.md
+        icon: auto_stories
   products:
     path: content/products
     glob:
