@@ -1,6 +1,6 @@
 ---
-date: 2022-03-07T00:00:00Z
-title: Best email sending services
+date: 2022-03-07T13:00:00+13:00
+title: Best email sending service
 categories:
   - Technology
 author: Wendy Parkes
@@ -9,10 +9,10 @@ thumbImg:
 featuredImg:
   image_path: /images/blog/featured-image-5.jpg
 seo:
-  page_description: 
-  canonical_url: 
-  featured_image: 
-  author_twitter_handle: 
+  page_description:
+  canonical_url:
+  featured_image:
+  author_twitter_handle:
   open_graph_type:
   no_index: false
 draft: false
