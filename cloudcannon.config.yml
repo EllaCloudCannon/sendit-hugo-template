@@ -41,7 +41,7 @@ collections_config:
         remove_empty_inputs: false
         remove_extra_inputs: true
         name:
-        icon: notes
+        icon: post_add
         preview:
         _editables:
         _enabled_editors:
@@ -57,7 +57,7 @@ collections_config:
         remove_empty_inputs: false
         remove_extra_inputs: true
         name:
-        icon: notes
+        icon: auto_stories
         preview:
         _editables:
         _enabled_editors:
