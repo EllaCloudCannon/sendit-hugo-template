@@ -1,18 +1,18 @@
 ---
-date: 2022-03-07T00:00:00Z
-title: What are the best email clients?
+date: 2022-04-14T12:00:00+12:00
+title: 7 things you didn't know about emailing
 categories:
   - Marketing
-author: Wendy Parkes
+author: Miyah Kelley
 thumbImg:
-  image_path: /images/blog/blog-thumb-4.jpg
+  image_path: /images/blog/blog-thumb-5.jpg
 featuredImg:
-  image_path: /images/blog/featured-image-4.jpg
+  image_path: /images/blog/featured-image-3.jpg
 seo:
-  page_description: 
-  canonical_url: 
-  featured_image: 
-  author_twitter_handle: 
+  page_description:
+  canonical_url:
+  featured_image:
+  author_twitter_handle:
   open_graph_type:
   no_index: false
 draft: false

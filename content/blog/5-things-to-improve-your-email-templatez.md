@@ -1,7 +1,7 @@
 ---
 _schema: default
-date: 2022-06-10T00:00:00Z
-title: 5 things to improve your email templates
+date: 2022-06-10T12:00:00+12:00
+title: 5 things to improve your email templatez
 seo:
   page_description:
   canonical_url:

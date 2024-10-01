@@ -1,18 +1,18 @@
 ---
-date: 2022-04-14T00:00:00Z
-title: 7 things you didn't know about email
+date: 2022-03-07T13:00:00+13:00
+title: What are the best email clientz
 categories:
   - Marketing
-author: Miyah Kelley
+author: Wendy Parkes
 thumbImg:
-  image_path: /images/blog/blog-thumb-5.jpg
+  image_path: /images/blog/blog-thumb-4.jpg
 featuredImg:
-  image_path: /images/blog/featured-image-3.jpg
+  image_path: /images/blog/featured-image-4.jpg
 seo:
-  page_description: 
-  canonical_url: 
-  featured_image: 
-  author_twitter_handle: 
+  page_description:
+  canonical_url:
+  featured_image:
+  author_twitter_handle:
   open_graph_type:
   no_index: false
 draft: false
