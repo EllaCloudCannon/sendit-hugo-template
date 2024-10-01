@@ -34,38 +34,6 @@ collections_config:
     disable_add_folder: false
     disable_file_actions: false
     schemas:
-      Blog Post:
-        path: schemas/blog-post.md
-        reorder_inputs: true
-        hide_extra_inputs: false
-        remove_empty_inputs: false
-        remove_extra_inputs: true
-        name:
-        icon: post_add
-        preview:
-        _editables:
-        _enabled_editors:
-        _inputs:
-        _select_data:
-        _structures:
-        create:
-        new_preview_url:
-      Customer Story:
-        path: schemas/customer-story.md
-        reorder_inputs: true
-        hide_extra_inputs: false
-        remove_empty_inputs: false
-        remove_extra_inputs: true
-        name:
-        icon: auto_stories
-        preview:
-        _editables:
-        _enabled_editors:
-        _inputs:
-        _select_data:
-        _structures:
-        create:
-        new_preview_url:
   products:
     path: content/products
     glob:
