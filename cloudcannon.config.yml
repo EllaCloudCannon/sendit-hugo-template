@@ -1,22 +1,6 @@
 paths:
   uploads: static/uploads
   static: static
-_inputs:
-  tags:
-    type: multiselect
-    label: Blog Tags
-    comment: Select tags for this blog from one of our topics.
-    context:
-      open: false
-      title: Help
-      icon: help
-      content: |
-        Blog tags help our users filter articles by topic.
-    options:
-      values:
-        - Opinion
-        - Feature
-        - Resource
 collections_config:
   pages:
     path: content
@@ -131,7 +115,7 @@ collection_groups:
     collections:
       - staff_members
       - data
-timezone: Pacific/Auckland
+timezone: Etc/UTC
 markdown:
   engine: commonmark
   options:
