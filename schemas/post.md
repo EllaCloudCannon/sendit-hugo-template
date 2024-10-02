@@ -2,18 +2,19 @@
 title:
 date:
 author:
+tags:
 image:
 
 _inputs:
-  author:
-    type: select
-    label: Blog Author
-    comment: Select an author for this blog from one of our team members.
+  tags:
+    type: multiselect
+    label: Blog Tags
+    comment: Select tags for this blog from one of our topics.
     context:
       open: false
       title: Help
       icon: help
-      content: Team members must have a profile in the Staff Members Collection to appear in this input.
-    options:
-      values: collections.staff_members
+      content: >-
+        Let your developer know if you want to add a blog tag to this list of
+        options.
 ---
