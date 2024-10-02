@@ -1,6 +1,22 @@
 paths:
   uploads: static/uploads
   static: static
+_inputs:
+  tags:
+    type: multiselect
+    label: Blog Tags
+    comment: Select tags for this blog from one of our topics.
+    context:
+      open: false
+      title: Help
+      icon: help
+      content: |
+        Blog tags help our users filter articles by topic.
+    options:
+      values:
+        - Opinion
+        - Feature
+        - Resource
 collections_config:
   pages:
     path: content
@@ -36,10 +52,18 @@ collections_config:
     schemas:
       post:
         path: schemas/post.md
+        reorder_inputs: true
+        hide_extra_inputs: false
+        remove_empty_inputs: false
+        remove_extra_inputs: true
         name: Blog Post
         icon: post_add
       customer_story:
         path: schemas/customer-story.md
+        reorder_inputs: true
+        hide_extra_inputs: false
+        remove_empty_inputs: false
+        remove_extra_inputs: true
         icon: auto_stories
   products:
     path: content/products
@@ -92,6 +116,11 @@ collections_config:
     schemas:
       staff_member:
         path: schemas/staff-member.yml
+        reorder_inputs: true
+        hide_extra_inputs: false
+        remove_empty_inputs: false
+        remove_extra_inputs: true
+        icon: notes
 collection_groups:
   - heading: Content
     collections:
