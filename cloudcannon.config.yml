@@ -90,6 +90,8 @@ collections_config:
     disable_add_folder: false
     disable_file_actions: false
     schemas:
+      staff_member:
+        path: schemas/staff-member.yml
 collection_groups:
   - heading: Content
     collections:
