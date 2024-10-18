@@ -24,7 +24,7 @@ collections_config:
       - '!_index.md'
     name: Blog
     icon: post_add
-    url: /travel/[filename]
+    url: /travel/[slug]
     disable_url: false
     description: ''
     _editables:
