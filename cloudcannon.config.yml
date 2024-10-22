@@ -24,11 +24,12 @@ collections_config:
       - '!_index.md'
     name: Blog
     icon: post_add
-    url: /travel/[slug]/
+    url: /travel/[slug].html
     disable_url: false
     description: ''
     _editables:
     _enabled_editors:
+      - content
     _inputs:
     _select_data:
     _structures:
