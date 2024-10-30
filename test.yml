@@ -1,7 +1,2 @@
-james_posts:
-_inputs:
-  james_posts:
-    type: multiselect
-    label: James
-    options:
-      values: "collections.posts[?(@.author == 'james')].title"
+food:
+yellow_food:

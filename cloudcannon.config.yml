@@ -155,3 +155,20 @@ markdown:
     superscript: false
     heading_ids: false
     attributes: false
+_inputs:
+  food:
+    type: multiselect
+    options:
+      values: data.example_data.food[*].name
+  yellow_food:
+    type: choice
+    options:
+      values: data.example_data.food[?(@.color == 'yellow')].name
+_select_data:
+  food:
+    - name: apple
+      color: red
+    - name: banana
+      color: yellow
+    - name: pineapple
+      color: yellow
