@@ -32,16 +32,6 @@ collections_config:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
-  staff_members:
-    path: staff-members
-    glob:
-      - '!_index.md'
-    name: Staff Members
-    icon: card_membership
-    disable_url: false
-    disable_add: false
-    disable_add_folder: false
-    disable_file_actions: false
   data:
     path: data
     glob:
@@ -69,6 +59,16 @@ collections_config:
     new_preview_url:
     schemas:
     schema_key:
+  staff_members:
+    path: staff-members
+    glob:
+      - '!_index.md'
+    name: Staff Members
+    icon: card_membership
+    disable_url: false
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
 _snippets_imports:
   hugo:
     exclude:
