@@ -1,5 +1,5 @@
 _schema: _schema
-source: /content/
+source: /
 paths:
   uploads: static/uploads
   static: static
@@ -13,22 +13,26 @@ collections_config:
     disable_add_folder: false
     disable_file_actions: false
   blog:
-    path: blog
+    path: content/blog
     glob:
       - '!_index.md'
     name: Blog
     icon: event_available
     disable_url: false
+    description: ''
+    _enabled_editors:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
   products:
-    path: products
+    path: content/products
     glob:
       - '!_index.md'
     name: Products
     icon: groups
     disable_url: false
+    description: ''
+    _enabled_editors:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
@@ -60,12 +64,14 @@ collections_config:
     schemas:
     schema_key:
   staff_members:
-    path: staff-members
+    path: content/staff-members
     glob:
       - '!_index.md'
     name: Staff Members
     icon: card_membership
     disable_url: false
+    description: ''
+    _enabled_editors:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
