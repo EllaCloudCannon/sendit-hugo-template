@@ -1,19 +1,20 @@
 ---
-date:
 title:
-seo:
-  page_description:
-  canonical_url:
-  featured_image:
-  author_twitter_handle:
-  open_graph_type: article
-  no_index: false
-categories:
-  - blog
+date:
 author:
-thumbImg:
-  image_path:
-featuredImg:
-  image_path:
-draft: true
+tags:
+image:
+
+_inputs:
+  tags:
+    type: multiselect
+    label: Blog Tags
+    comment: Select tags for this blog from one of our topics.
+    context:
+      open: false
+      title: Help
+      icon: help
+      content: >-
+        Let your developer know if you want to add a blog tag to this list of
+        options.
 ---
