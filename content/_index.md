@@ -1,12 +1,13 @@
 ---
+_schema: default
 title: Home
 seo:
-  page_description: 
-  canonical_url: 
-  featured_image: 
-  author_twitter_handle: 
-  open_graph_type:
-  no_index: false
+   page_description:
+   canonical_url:
+   featured_image:
+   author_twitter_handle:
+   open_graph_type:
+   no_index: false
 content_blocks:
    -
       _bookshop_name: home/hero
@@ -16,8 +17,8 @@ content_blocks:
          a reader's attention, engage them, and convert them into customers.
       image_path: /images/hero/hero-image-2.png
       link:
-         text: Try This Free
-         url: /# 
+         text: Log Out
+         url: /logout
    -
       _bookshop_name: global/counter
       title: Scale your
@@ -34,14 +35,18 @@ content_blocks:
             text: Venture capital raised
          -
             number: 2016
+            suffix: m
+            prefix: $
             text: Established in
          -
             number: 40
             suffix: +
+            prefix: $
             text: Amazing team members
          -
             number: 4322
             suffix: +
+            prefix: $
             text: Active users and growing
    -
       _bookshop_name: home/video
@@ -51,18 +56,18 @@ content_blocks:
       _bookshop_name: global/header
       title: 'Sendit '
       title_suffix: Features
-      no_top_pad: true
       description: >-
          Our platform offers the most advanced features including automated
          email content creation, dynamic personalization, and customer
          segmentation.
+      no_top_pad: true
    -
       _bookshop_name: global/feature
       image_path: /images/feature/feature-card-one.png
       title: Email Campaign in one minute
       description: >-
-         Send an email campaign with one click, in just minutes. Automate
-         your emails and content, while keeping the human touch.
+         Send an email campaign with one click, in just minutes. Automate your
+         emails and content, while keeping the human touch.
       btn:
          link: /#
          text: Try This Free
@@ -72,8 +77,8 @@ content_blocks:
       image_path: /images/feature/feature-card-two.png
       title: See every Lead in one Place
       description: >-
-         Sales analytics and automation made simple: see every sales lead
-         in one place, regardless of where it came from.
+         Sales analytics and automation made simple: see every sales lead in one
+         place, regardless of where it came from.
       btn:
          link: /#
          text: Try This Free
@@ -84,8 +89,8 @@ content_blocks:
       title: 100% free uploads
       description: >-
          SendIt is used by everyone from small businesses to fortune 500
-         companies. Browse our collection of email marketing templates and
-         start sending beautiful emails in minutes.
+         companies. Browse our collection of email marketing templates and start
+         sending beautiful emails in minutes.
       btn:
          link: /#
          text: Try This Free
