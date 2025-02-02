@@ -1,4 +1,5 @@
 ---
+_schema: default
 title: About
 seo:
   page_description:
@@ -21,8 +22,8 @@ content_blocks:
       - image_path: /images/about/aboutfeature-four.jpg
         placer: back_top_left
     link:
-      text: Try This Free
-      url: /#
+      text: Log Out
+      url: /logout
   - _bookshop_name: global/counter
     title: Built for your
     title_suffix: Business
@@ -34,12 +35,16 @@ content_blocks:
         prefix: $
         text: Venture capital raised
       - number: 2016
+        suffix: m
+        prefix: $
         text: Established in
       - number: 40
         suffix: +
+        prefix: $
         text: Amazing team members
       - number: 44325
         suffix: +
+        prefix: $
         text: Active users and growing
   - _bookshop_name: about/video
     title: We love what we do
