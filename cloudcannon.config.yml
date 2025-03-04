@@ -69,8 +69,8 @@ collections_config:
     path: content/products
     glob:
       - '!_index.md'
-    name: Products
-    icon: inventory_2
+    name: Services
+    icon: volunteer_activism
     disable_url: false
     description: ''
     _editables:
@@ -131,6 +131,27 @@ collection_groups:
     collections:
       - staff_members
       - data
+_inputs:
+  food:
+    type: multiselect
+    options:
+      empty_type: array
+      values: data.example_data.food[*].name
+    cascade: true
+  yellow_food:
+    type: choice
+    options:
+      allow_empty: true
+      values: data.example_data.food[?(@.color == 'yellow')].name
+    cascade: true
+_select_data:
+  food:
+    - name: apple
+      color: red
+    - name: banana
+      color: yellow
+    - name: pineapple
+      color: yellow
 _snippets_imports:
   hugo:
     exclude:
@@ -155,20 +176,3 @@ markdown:
     superscript: false
     heading_ids: false
     attributes: false
-_inputs:
-  food:
-    type: multiselect
-    options:
-      values: data.example_data.food[*].name
-  yellow_food:
-    type: choice
-    options:
-      values: data.example_data.food[?(@.color == 'yellow')].name
-_select_data:
-  food:
-    - name: apple
-      color: red
-    - name: banana
-      color: yellow
-    - name: pineapple
-      color: yellow
