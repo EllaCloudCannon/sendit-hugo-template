@@ -18,8 +18,6 @@ featuredImg:
   image_path: /images/blog/featured-image-6.jpg
 draft: false
 ---
-Be aware of what's normal for your target customers' inboxes. If you're sending out emails to people who are on Gmail and Yahoo accounts, then there's little chance they'll get blocked because their addresses haven't been flagged as spam yet. But if you're reaching out to people with Outlook or AOL addresses, there's a good chance your message will get flagged as junk mail and end up in their spam folder before they ever see it. Make sure you're testing different types of addresses before sending out any mass marketing campaigns.
-
 ### Double opt-in
 
 Before you send out any campaign using an email marketing tool, make sure that you have permission from your subscribers to send them emails. You can do this by asking them during signup or including a checkbox in the subscription form asking if they'd like to receive marketing communications from you in the future.
