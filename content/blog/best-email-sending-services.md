@@ -9,10 +9,10 @@ thumbImg:
 featuredImg:
   image_path: /images/blog/featured-image-5.jpg
 seo:
-  page_description: 
-  canonical_url: 
-  featured_image: 
-  author_twitter_handle: 
+  page_description:
+  canonical_url:
+  featured_image:
+  author_twitter_handle:
   open_graph_type:
   no_index: false
 draft: false
@@ -36,10 +36,6 @@ Use double opt-in when sending out marketing emails. This means that the recipie
 Your customers don't want to read lengthy emails full of text, so keep your messages short and sweet. If you have multiple products to promote, break up each product offer into its own email instead of sending one page-long message with multiple links embedded in it. That way, customers can easily find what they're looking for without having to scroll all over the page.
 
 Use images sparingly (if at all). You might be tempted to include an image in every email you send out, but it's important to remember that images can cause problems when it comes to inbox delivery — particularly when they're used incorrectly or included in bulk emails from companies where the receiver doesn't know who sent them. If you're going
-
-### Tracking
-
-Choose a reliable ESP that allows you to track opens and clicks so you can figure out which types of messages work best for your audience.
 
 ### Send your best email
 
