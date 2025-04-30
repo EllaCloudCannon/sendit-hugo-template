@@ -9,10 +9,10 @@ thumbImg:
 featuredImg:
   image_path: /images/blog/featured-image-5.jpg
 seo:
-  page_description: 
-  canonical_url: 
-  featured_image: 
-  author_twitter_handle: 
+  page_description:
+  canonical_url:
+  featured_image:
+  author_twitter_handle:
   open_graph_type:
   no_index: false
 draft: false
@@ -39,7 +39,7 @@ Use images sparingly (if at all). You might be tempted to include an image in ev
 
 ### Tracking
 
-Choose a reliable ESP that allows you to track opens and clicks so you can figure out which types of messages work best for your audience.
+Choose a reliable ESP that allows you to track test opens and clicks so you can figure out which types of messages work best for your audience.
 
 ### Send your best email
 
