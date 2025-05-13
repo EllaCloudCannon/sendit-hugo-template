@@ -1,0 +1,178 @@
+_schema: _schema
+paths:
+  uploads: static/uploads
+  static: static
+collections_config:
+  pages:
+    path: content
+    name: Pages
+    icon: wysiwyg
+    disable_url: false
+    description: ''
+    _editables:
+    _enabled_editors:
+    _inputs:
+    _select_data:
+    _structures:
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+    schemas:
+  blog:
+    path: content/blog
+    glob:
+      - '!_index.md'
+    name: Blog
+    icon: post_add
+    url: /travel/[slug].html
+    disable_url: false
+    description: ''
+    _editables:
+    _enabled_editors:
+      - content
+    _inputs:
+    _select_data:
+    _structures:
+    add_options:
+      - name: test
+        icon:
+        editor:
+        base_path:
+        collection:
+        schema:
+        default_content_file:
+      - name: test
+        icon:
+        href:
+    create:
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+    schemas:
+      post:
+        path: schemas/post.md
+        reorder_inputs: true
+        hide_extra_inputs: false
+        remove_empty_inputs: false
+        remove_extra_inputs: true
+        name: Blog Post
+        icon: post_add
+        _enabled_editors:
+      customer_story:
+        path: schemas/customer-story.md
+        reorder_inputs: true
+        hide_extra_inputs: false
+        remove_empty_inputs: false
+        remove_extra_inputs: true
+        icon: auto_stories
+  products:
+    path: content/products
+    glob:
+      - '!_index.md'
+    name: Services
+    icon: volunteer_activism
+    disable_url: false
+    description: ''
+    _editables:
+    _enabled_editors:
+    _inputs:
+    _select_data:
+    _structures:
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+    schemas:
+  data:
+    path: data
+    name: Site Elements
+    icon: important_devices
+    disable_url: true
+    description: ''
+    _editables:
+    _enabled_editors:
+    _inputs:
+    _select_data:
+    _structures:
+    disable_add: true
+    disable_add_folder: true
+    disable_file_actions: true
+    schemas:
+  staff_members:
+    path: content/staff-members
+    glob:
+      - '!_index.md'
+    name: Staff Members
+    icon: groups
+    disable_url: false
+    description: ''
+    _editables:
+    _enabled_editors:
+    _inputs:
+    _select_data:
+    _structures:
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+    schemas:
+      staff_member:
+        path: schemas/staff-member.yml
+        reorder_inputs: true
+        hide_extra_inputs: false
+        remove_empty_inputs: false
+        remove_extra_inputs: true
+        icon: notes
+collection_groups:
+  - heading: Content
+    collections:
+      - pages
+      - blog
+      - products
+  - heading: Data Files
+    collections:
+      - staff_members
+      - data
+_inputs:
+  food:
+    type: multiselect
+    options:
+      empty_type: array
+      values: data.example_data.food[*].name
+    cascade: true
+  yellow_food:
+    type: choice
+    options:
+      allow_empty: true
+      values: data.example_data.food[?(@.color == 'yellow')].name
+    cascade: true
+_select_data:
+  food:
+    - name: apple
+      color: red
+    - name: banana
+      color: yellow
+    - name: pineapple
+      color: yellow
+_snippets_imports:
+  hugo:
+    exclude:
+      - hugo_instagram
+timezone: Etc/UTC
+markdown:
+  engine: commonmark
+  options:
+    xhtml: false
+    breaks: false
+    linkify: false
+    typographer: false
+    spaced_lists: false
+    sentence_per_line: false
+    gfm: true
+    code_block_fences: '```'
+    escape_snippets_in_code_blocks: false
+    treat_indentation_as_code: true
+    table: false
+    strikethrough: false
+    subscript: false
+    superscript: false
+    heading_ids: false
+    attributes: false
