@@ -156,6 +156,10 @@ _snippets_imports:
   hugo:
     exclude:
       - hugo_instagram
+source_editor:
+  tab_size: 2
+  theme: vscode_dark
+  show_gutter: true
 timezone: Etc/UTC
 markdown:
   engine: commonmark
