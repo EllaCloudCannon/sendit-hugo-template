@@ -1,3 +1,4 @@
+_schema: _schema
 paths:
   uploads: static/images
 collections_config:
@@ -114,6 +115,9 @@ _inputs:
   featured_image.image:
     type: image
     options:
+      mime_type: image/jpeg
+      accepts_mime_types:
+        - image/fif
       resize_style: crop
       width: 1296
     cascade: true
@@ -219,6 +223,19 @@ _inputs:
 _structures:
   content_blocks:
     style: modal
+    values:
+      - id: hi
+        default:
+        icon:
+        image:
+        label:
+        picker_preview:
+        preview:
+        tags:
+        groups:
+        place_groups_below:
+        tabbed:
+        value:
   dropdown:
     style: select
     values:
