@@ -1,4 +1,3 @@
-_schema: _schema
 paths:
   uploads: static/uploads
   static: static
@@ -24,7 +23,7 @@ collections_config:
       - '!_index.md'
     name: Blog
     icon: post_add
-    url: /travel/[slug].html
+    url: /travel/[full_slug].html
     disable_url: false
     description: ''
     _editables:
@@ -156,6 +155,10 @@ _snippets_imports:
   hugo:
     exclude:
       - hugo_instagram
+source_editor:
+  tab_size: 2
+  theme: vscode_dark
+  show_gutter: true
 timezone: Etc/UTC
 markdown:
   engine: commonmark
